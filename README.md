@@ -7,4 +7,4 @@
 
 ## 2 - Portfolio website using React JS
 ### Portfolio website in various components
-![alt text](https://github.com/Pulkit007/Developer-Days-Challenges/blob/main/project-images/portfolio.png)
+<!-- ![alt text](https://github.com/Pulkit007/Developer-Days-Challenges/blob/main/project-images/portfolio.png) -->
