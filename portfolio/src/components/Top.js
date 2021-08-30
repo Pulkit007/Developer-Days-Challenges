@@ -1,5 +1,7 @@
 import React from "react";
 import coder from "./intro_programmer.svg";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCode, faCommentAlt } from "@fortawesome/free-solid-svg-icons";
 
 const Top = () => {
   return (
@@ -24,31 +26,44 @@ const Top = () => {
             </div>
             <div className="btn-container">
               <a href="#section-contact">
-                <button className="contact-btn">GET IN TOUCH</button>
+                <button className="contact-btn">
+                  <FontAwesomeIcon icon={faCommentAlt} /> GET IN TOUCH
+                </button>
               </a>
-              <button className="project-btn">SEE MY WORK</button>
+              <button className="project-btn">
+                <FontAwesomeIcon icon={faCode} /> SEE MY WORK
+              </button>
             </div>
             <div className="social-icons">
               <a href="https://github.com/Pulkit007">
-                <img src="https://img.icons8.com/nolan/128/github.png" />
+                <img
+                  src="https://img.icons8.com/nolan/128/github.png"
+                  alt="github"
+                />
               </a>
               <a
                 style={{ marginLeft: "20px" }}
                 href="https://www.linkedin.com/in/pulkit-bhargava-9491231b6"
               >
-                <img src="https://img.icons8.com/nolan/128/linkedin-circled.png" />
+                <img
+                  src="https://img.icons8.com/nolan/128/linkedin-circled.png"
+                  alt="linkedin"
+                />
               </a>
               <a
                 style={{ marginLeft: "20px" }}
                 href="https://www.instagram.com/invites/contact/?i=11z4mjxpb5hwm&utm_content=2jcrh4n"
               >
-                <img src="https://img.icons8.com/nolan/128/instagram-new.png" />
+                <img
+                  src="https://img.icons8.com/nolan/128/instagram-new.png"
+                  alt="instagram"
+                />
               </a>
             </div>
           </main>
         </div>
         <div className="right programmer-image">
-          <img src={coder} />
+          <img src={coder} alt="coder" />
         </div>
       </div>
     </div>
