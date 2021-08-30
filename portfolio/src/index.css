@@ -112,11 +112,11 @@ h2 {
 .contact-btn {
   color: black;
   background-color: #c6ff00;
-  border-radius: 4px;
-  padding: 15px 15px;
+  border-radius: 5px;
+  padding: 10px 15px;
   border: none;
-  font-weight: 600;
-  font-family: sans-serif;
+  font-weight: 400;
+  font-family: Poppins, sans-serif;
   margin-right: 5px;
   cursor: pointer;
 }
@@ -124,11 +124,11 @@ h2 {
 .project-btn {
   color: #c6ff00;
   border: 1px solid #c6ff00;
-  border-radius: 4px;
+  border-radius: 5px;
   background-color: transparent;
-  padding: 15px 15px;
-  font-weight: 600;
-  font-family: sans-serif;
+  padding: 10px 15px;
+  font-weight: 400;
+  font-family: Poppins, sans-serif;
   margin-left: 20px;
   cursor: pointer;
 }
@@ -186,6 +186,7 @@ h2 {
   flex: 1;
   justify-content: center;
   margin: auto;
+  padding: 50px;
 }
 
 .underline {
@@ -247,7 +248,7 @@ h2 {
   font-size: 0.9rem;
   line-height: 1.66;
   font-family: "Roboto", sans-serif;
-  font-weight: 600;
+  font-weight: 400;
 }
 
 .icon img {
@@ -313,4 +314,86 @@ h2 {
 
 .projects .showCase .details p {
   font-size: 1.1em;
+}
+
+.footer {
+  text-align: center;
+  background-color: #161625;
+  color: white;
+  padding: 50px 80px;
+  padding-bottom: 10px;
+}
+
+.footer h1 {
+  padding-top: 20px;
+  font-size: 3.3em;
+  font-weight: 400;
+}
+
+.footer p {
+  font-size: 1.15em;
+  font-weight: 300;
+}
+
+.underline3 {
+  height: 3px;
+  background-color: #c6ff00;
+  width: 15%;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.contact-icon {
+  padding-bottom: 30px;
+}
+
+.contact-icon img {
+  width: 4%;
+  height: 4%;
+}
+
+.owner {
+  color: white;
+}
+
+.owner a {
+  text-decoration: none;
+  cursor: pointer;
+  color: whitesmoke;
+}
+
+.owner a:hover {
+  color: #c6ff00;
+}
+.footer hr {
+  border-top: 1px solid #c6ff00;
+}
+
+.footer input {
+  border: none;
+  width: 23%;
+  outline: none;
+  padding: 6px 8px;
+  border-radius: 8px;
+  border: 1px solid grey;
+  background-color: #161625;
+  color: white;
+  margin-right: 20px;
+}
+
+.footer input:focus {
+  border: 1px solid #c6ff00;
+}
+
+.footer .send-email {
+  border: none;
+  border-radius: 8px;
+  color: black;
+  font-family: Poppins, sans-serif;
+  background-color: #c6ff00;
+  padding: 8px;
+}
+
+.footer form {
+  padding-bottom: 30px;
 }

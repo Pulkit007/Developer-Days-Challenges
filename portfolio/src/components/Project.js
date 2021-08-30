@@ -7,7 +7,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 const Project = () => {
   return (
-    <div className="projects">
+    <div id="projects-section" className="projects">
       <h1>Projects</h1>
       <div className="underline2"></div>
       <div className="showCase">

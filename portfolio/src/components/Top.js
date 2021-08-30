@@ -25,14 +25,16 @@ const Top = () => {
               </div>
             </div>
             <div className="btn-container">
-              <a href="#section-contact">
+              <a href="#contact-section">
                 <button className="contact-btn">
                   <FontAwesomeIcon icon={faCommentAlt} /> GET IN TOUCH
                 </button>
               </a>
-              <button className="project-btn">
-                <FontAwesomeIcon icon={faCode} /> SEE MY WORK
-              </button>
+              <a href="#projects-section">
+                <button className="project-btn">
+                  <FontAwesomeIcon icon={faCode} /> SEE MY WORK
+                </button>
+              </a>
             </div>
             <div className="social-icons">
               <a href="https://github.com/Pulkit007">
