@@ -162,3 +162,94 @@ h2 {
   flex: 1;
   max-height: 80%;
 }
+
+.tech-page {
+  width: 100%;
+  display: block;
+  background-color: #161625;
+  color: white;
+  margin: 0 auto;
+  padding-left: 30px;
+  padding-top: 10%;
+  padding-right: 30px;
+  padding-bottom: 7%;
+}
+
+.tech {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.image-div {
+  align-content: center;
+  flex: 1;
+  justify-content: center;
+  margin: auto;
+}
+
+.coder {
+  width: 100%;
+  margin: 0 auto;
+  height: auto;
+  padding-right: 10px;
+}
+
+.tech-div {
+  max-width: 50%;
+  flex: 1;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+  padding-right: 30px;
+}
+
+.tech-div h2 {
+  margin-bottom: 10px;
+  font-size: 3.75rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+.tech-icons-div {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.icon {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 20px;
+}
+
+.icon span {
+  font-size: 0.9rem;
+  line-height: 1.66;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+}
+
+.icon img {
+  margin-top: 10px;
+  width: 80px;
+  height: 80px;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+@media screen and (max-width: 1150px) {
+  .icon img {
+    width: 60px;
+    height: 60px;
+  }
+}
+
+.icon img:hover {
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
+}
