@@ -79,6 +79,7 @@ h2 {
   font-weight: 600;
   line-height: 1.235;
   letter-spacing: 0.00735;
+  color: white;
   margin-bottom: 0.35em;
 }
 
@@ -89,6 +90,7 @@ h2 {
   line-height: 1.6;
   padding-right: 20%;
   letter-spacing: 1px;
+  color: white;
 }
 
 .about-me .welcome {
@@ -169,9 +171,7 @@ h2 {
   background-color: #161625;
   color: white;
   margin: 0 auto;
-  padding-left: 30px;
   padding-top: 10%;
-  padding-right: 30px;
   padding-bottom: 7%;
 }
 
@@ -188,11 +188,29 @@ h2 {
   margin: auto;
 }
 
+.underline {
+  height: 3px;
+  background-color: #c6ff00;
+  width: 40%;
+  margin: auto;
+  margin-bottom: 32px;
+}
+
+.underline2 {
+  height: 3px;
+  background-color: #c6ff00;
+  width: 15%;
+  margin: auto;
+  margin-bottom: 32px;
+  margin-top: -20px;
+}
+
 .coder {
   width: 100%;
   margin: 0 auto;
   height: auto;
-  padding-right: 10px;
+  margin-right: 20px;
+  margin-left: 20px;
 }
 
 .tech-div {
@@ -201,7 +219,7 @@ h2 {
   align-content: center;
   justify-content: center;
   text-align: center;
-  padding-right: 30px;
+  padding-right: 15px;
 }
 
 .tech-div h2 {
@@ -252,4 +270,47 @@ h2 {
 .icon img:hover {
   -webkit-transform: scale(1.3);
   transform: scale(1.3);
+}
+
+.projects {
+  width: 100%;
+  min-height: 100vh;
+  color: white;
+  background-color: #161625;
+}
+
+.projects h1 {
+  padding-top: 25px;
+  font-size: 4.5rem;
+  text-align: center;
+  font-weight: 500;
+  letter-spacing: 2px;
+  padding-bottom: 25px;
+}
+
+.projects .showCase {
+  width: 90%;
+  height: 80%;
+  margin: auto;
+}
+
+.projects .showCase img {
+  padding-top: 30px;
+  width: 50%;
+  margin: auto;
+}
+
+.projects .showCase .details {
+  padding-top: 40px;
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+
+.projects .showCase .details h3 {
+  font-size: 2.5em;
+}
+
+.projects .showCase .details p {
+  font-size: 1.1em;
 }
