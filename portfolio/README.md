@@ -1,2 +1,2 @@
 # My Portfolio
-### site-link: https://portfolio-pulkit.netlify.app/
+### link: https://portfolio-pulkit.netlify.app/
