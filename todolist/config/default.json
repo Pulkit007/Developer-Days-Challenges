@@ -1,4 +1,3 @@
 {
-  "mongoURI": "mongodb+srv://Pulkit077:Pulkit99366@cluster0.liog6.mongodb.net/todolist?retryWrites=true&w=majority",
-  "jwtSecret": "mySecretToken"
+  "mongoURI": "mongodb+srv://Pulkit077:Pulkit99366@cluster0.liog6.mongodb.net/todolist?retryWrites=true&w=majority"
 }
