@@ -1,4 +1,0 @@
-{
-  "mongoURI": "Put your mongodb url",
-  "jwtSecret": "mySecretToken"
-}
