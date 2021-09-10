@@ -1,4 +1,4 @@
 {
-  "mongoURI": "mongodb+srv://Pulkit077:Pulkit99366@cluster0.liog6.mongodb.net/todolist?retryWrites=true&w=majority",
+  "mongoURI": "Put your mongodb url",
   "jwtSecret": "mySecretToken"
 }
