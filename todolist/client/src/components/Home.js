@@ -10,7 +10,7 @@ const Home = () => {
         <Link to="/add">
           <button className="btn">Add a new task</button>
         </Link>
-        <Link to="/view">
+        <Link to="/all">
           <button className="btn">View all the pending task</button>
         </Link>
       </div>

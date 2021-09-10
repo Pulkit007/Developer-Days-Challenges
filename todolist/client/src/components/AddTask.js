@@ -2,7 +2,7 @@ import React from "react";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { createTask } from "../api/api";
-import { Row, Col, Toast, Button } from "react-bootstrap";
+import { Row, Col, Toast } from "react-bootstrap";
 import ToastContainer from "react-bootstrap/ToastContainer";
 
 const AddTask = () => {
@@ -54,7 +54,7 @@ const AddTask = () => {
         />
         <button className="btn">Add</button>
       </form>
-      <Link to="/view">
+      <Link to="/all">
         <button className="to-view">View all the tasks</button>
       </Link>
       <p>@Copyright Pulkit Bhargava</p>
