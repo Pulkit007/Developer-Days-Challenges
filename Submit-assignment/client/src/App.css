@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.registration-form {
+  display: flex;
+  width: 50vw;
+  margin: auto;
+  height: 100vh;
+}
+
+.inner {
+  min-width: 80%;
+  max-height: 90%;
+  margin: auto;
+  justify-content: center;
+  padding: 20px 30px;
+  align-items: center;
+  box-shadow: 10px 10px 30px 10px #f0ecec,
+    10px 10px 30px 10px rgba(186, 186, 199, 0.4);
+  border-radius: 16px;
+}
+
+@media screen and (max-width: 740px) {
+  .inner h1 {
+    font-size: 1.8em;
+  }
+}

@@ -4,19 +4,30 @@ import { useEffect, useState } from "react";
 
 const ViewTask = () => {
   const [tasks, setTasks] = useState([]);
+  const [loading, setLoading] = useState(false);
 
   useEffect(() => {
+    setLoading(true);
     getTasks().then((res) => {
-      console.log(res);
       setTasks(res);
     });
+    setLoading(false);
   }, []);
 
-  if (tasks.length === 0) {
+  useEffect(() => {}, [tasks]);
+
+  if (loading === true) {
     return (
       <div>
         <h1>View Tasks</h1>
-        <h3>You does not have anything in the todolist</h3>
+        <h3>Loading....</h3>
+      </div>
+    );
+  } else if (tasks.length === 0) {
+    return (
+      <div>
+        <h1>View Tasks</h1>
+        <h3>Loading...</h3>
       </div>
     );
   }
